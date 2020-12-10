@@ -31,7 +31,7 @@ setInterval(function () {
   console.log(four, three, two, one)
   counter++;
   ReactDOM.render(
-    <App hour={one} minute={two} second={three} seconds={four} />,
+    <App one={one} two={two} three={three} four={four} />,
 
     document.getElementById('root'))
 }, 1000);
